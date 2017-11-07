@@ -1,6 +1,6 @@
 {
   "name": "emotion-jsxstyle",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Emotion with jsxstyle syntax",
   "main": "dist/emotion-jsxstyle.js",
   "scripts": {
@@ -8,7 +8,14 @@
     "start": "webpack-dev-server",
     "docs": "NODE_ENV=production webpack"
   },
-  "keywords": ["react", "react-component", "ui", "development", "style", "css"],
+  "keywords": [
+    "react",
+    "react-component",
+    "ui",
+    "development",
+    "style",
+    "css"
+  ],
   "author": "Jared Palmer",
   "license": "MIT",
   "peerDependencies": {
