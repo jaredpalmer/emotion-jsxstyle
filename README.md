@@ -57,10 +57,10 @@ class App extends React.Component {
   render() {
     return (
       <Col>
-        <Block component="input" props={{
+        <Block component="input" name="thing" props={{
           ref: i => this.input = i,
           defaultValue: 'Hello',
-        }}>
+        }}/>
       </Col> 
     )
   }
