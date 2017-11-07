@@ -3,10 +3,7 @@ import { css as EmotionCSS } from 'react-emotion';
 
 import { jsxstyleFactory } from './jsxstyleFactory';
 
-const cx = (css, styles, className) =>
-  EmotionCSS([{ ...css, ...styles }, className]);
-
-const jsxstyle = jsxstyleFactory(cx);
+const jsxstyle = jsxstyleFactory(EmotionCSS);
 export const Box = jsxstyle.Box;
 export const Flex = jsxstyle.Flex;
 export const InlineFlex = jsxstyle.InlineFlex;
