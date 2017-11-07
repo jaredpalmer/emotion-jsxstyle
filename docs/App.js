@@ -35,7 +35,16 @@ class App extends React.Component {
           <Block background="#b7b7b7" padding="1rem" margin="2rem">
             Thing
           </Block>
-          <Block background="#b7b7b7" padding="1rem" margin="2rem">
+          <Block
+            background="#b7b7b7"
+            padding="1rem"
+            margin="2rem"
+            css={{
+              ':hover': {
+                color: 'red',
+              },
+            }}
+          >
             Thing
           </Block>
         </Row>
