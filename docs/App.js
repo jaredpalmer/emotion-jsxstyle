@@ -21,7 +21,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Block>
+      <Block className="AddingClassNames is cool too">
         <Row alignItems="center" justifyContent="center">
           <Block background="#b7b7b7" padding="1rem" margin="2rem">
             Thing

@@ -1,4 +1,5 @@
 import React from 'react';
+import cx from 'classcat';
 
 export const jsxstyleFactory = fn => {
   const Box = ({
@@ -12,7 +13,7 @@ export const jsxstyleFactory = fn => {
     return React.createElement(
       component,
       {
-        className: fn(css, rest, className),
+        className: cx([fn([css, rest]), className]),
         ...props,
       },
       children

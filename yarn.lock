@@ -1030,6 +1030,10 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
+classcat@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/classcat/-/classcat-1.1.1.tgz#df8d7598cdc62bf268eb2184bf69d129718730a3"
+
 cliui@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-2.1.0.tgz#4b475760ff80264c762c3a1719032e91c7fea0d1"
