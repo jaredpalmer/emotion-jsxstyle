@@ -7,6 +7,7 @@ export const jsxstyleFactory = fn => {
     className,
     css,
     props,
+    style,
     children,
     ...rest
   }) => {
@@ -14,6 +15,7 @@ export const jsxstyleFactory = fn => {
       component,
       {
         className: cx([fn([css, rest]), className]),
+        style,
         ...props,
       },
       children
@@ -26,7 +28,7 @@ export const jsxstyleFactory = fn => {
 
   Block.displayName = 'Block';
 
-  const Inline = p => <Box display="Inline" {...p} />;
+  const Inline = p => <Box display="inline" {...p} />;
 
   Inline.displayName = 'Inline';
 
